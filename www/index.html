@@ -85,6 +85,7 @@
 	<script>
 	const uniqueid = createUniqueID();
 	const goToDashboard = () => {
+		console.log("unieuqid", uniqueid);
 		window.location = `/dashboard.html?box=box_${uniqueid}`;
 	};
 	const copyURL = () => {
